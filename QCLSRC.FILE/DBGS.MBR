@@ -1,0 +1,11 @@
+             PGM        PARM(&PGM &JOB)
+             DCL        VAR(&PGM) TYPE(*CHAR) LEN(10)
+             DCL        VAR(&JOB) TYPE(*CHAR) LEN(10)
+             ENDDBG
+             MONMSG     MSGID(CPF1931 CPF0001)
+             ENDSRVJOB
+             MONMSG     MSGID(CPF0001)
+             STRSRVJOB  JOB(&JOB)
+
+             STRDBG     PGM(&PGM) UPDPROD(*YES)
+             ENDPGM

@@ -1,0 +1,5 @@
+             CMD        PROMPT('Debug special')
+             PARM       KWD(PGM) TYPE(*NAME) MIN(1) PROMPT('Debug +
+                          this program')
+             PARM       KWD(JOB) TYPE(*NAME) MIN(1) PROMPT('Debug +
+                          this job')
